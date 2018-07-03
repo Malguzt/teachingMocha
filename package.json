@@ -1,0 +1,23 @@
+{
+  "name": "teachingmocha",
+  "version": "1.0.0",
+  "description": "Proyecto para enseñar mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/unit --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malguzt/teachingMocha.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malguzt/teachingMocha/issues"
+  },
+  "homepage": "https://github.com/Malguzt/teachingMocha#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
